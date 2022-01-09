@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoginApiCallDemo</string>
+    <string name="login">Login</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password</string>
+    <string name="employee_id">Employee ID: </string>
+    <string name="employee_name">Employee Name:</string>
+    <string name="subscription_id">Subscription ID:</string>
+    <string name="subscription">Subscription:</string>
+    <string name="vertical_id">Vertical Id:</string>
+    <string name="teams">Teams:</string>
+    <string name="screen_name">Screen Name:</string>
+</resources>
