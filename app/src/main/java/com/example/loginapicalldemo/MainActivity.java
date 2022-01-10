@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
     AppCompatButton btnlogin;
         ApiService  apiService;
     private ProgressDialog progressDialog;
+    private String username;
+    private String password;
 
 
     @Override
