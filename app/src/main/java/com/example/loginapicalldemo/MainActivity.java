@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         progressDialog.show();
 
         apiService = RetrofitRestClient.getRetrofitInstance().create(ApiService.class);
-        final RequestDataClass requestDataClass= new RequestDataClass("dpatel@ciright.com", "Dpatel$2020", 0);
+        final RequestDataClass requestDataClass= new RequestDataClass(username, password, 0);
         Call<List<ResponseDataClass>> listCall=apiService.Login(requestDataClass);
         listCall.enqueue(new Callback<List<ResponseDataClass>>() {
             @Override
